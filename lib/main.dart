@@ -54,8 +54,45 @@ class HomeView extends StatelessWidget {
         appBar: AppBar(
           title: const Text(AppInfo.title),
         ),
-        body: const Center(
-          child: Text('Hello World'),
+        body: const ViewContent(),
+      );
+}
+
+/// The main content of the view in the center of the page
+class ViewContent extends StatelessWidget {
+  /// This function creates the view content
+  const ViewContent({super.key});
+
+  @override
+  Widget build(final BuildContext context) => Center(
+        child: Padding(
+          padding: const EdgeInsets.all(16),
+          child: Card(
+            child: Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 16),
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: <Widget>[
+                  Padding(
+                    padding: const EdgeInsets.symmetric(vertical: 16),
+                    child: Text(
+                      'Hello World!!',
+                      style: Theme.of(context).textTheme.titleLarge,
+                    ),
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.only(bottom: 12),
+                    child: Text(
+                      "Get ready to make some code. It's not that hard I "
+                      'promise.',
+                      style: Theme.of(context).textTheme.bodyLarge,
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ),
         ),
       );
 }
