@@ -4,5 +4,24 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"psi-header.variables": [
+			[
+				"authoremail",
+				"alllegron@gmail.com"
+			],
+			[
+				"remotename",
+				"Training App"
+			],
+			[
+				"remoteurl",
+				"https://github.com/john-cinquegrana/FlutterTrainingApp"
+			],
+			[
+				"projectname",
+				"Mood Swings"
+			]
+		],
+	}
 }
