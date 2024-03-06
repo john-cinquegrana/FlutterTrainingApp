@@ -15,6 +15,8 @@ import 'package:flutter/material.dart';
 
 /// The color scheme that describes the colors our app will use when it's in
 /// light mode.
+///
+/// This color scheme was generated from the website: https://m3.material.io/theme-builder#/custom
 const ColorScheme lightColorScheme = ColorScheme(
   brightness: Brightness.light,
   primary: Color(0xFF904D00),
@@ -49,6 +51,8 @@ const ColorScheme lightColorScheme = ColorScheme(
 
 /// The color scheme that describes the colors our app will use when it's in
 /// dark mode.
+///
+/// This color scheme was generated from the website: https://m3.material.io/theme-builder#/custom
 const ColorScheme darkColorScheme = ColorScheme(
   brightness: Brightness.dark,
   primary: Color(0xFFFFB77C),
