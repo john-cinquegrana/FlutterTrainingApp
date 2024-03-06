@@ -1,3 +1,20 @@
+/*
+ * File:					main_themes.dart
+ * Project:				Mood Swings
+ * File Created:	Wednesday, March 6th 2024
+ * Remote:				Training App:	https://github.com/john-cinquegrana/FlutterTrainingApp
+ * Developer(s):	John Cinquegrana (alllegron@gmail.com)
+ * 
+ * Copyright 2024 John Cinquegrana
+ * 
+ * This file contains the main themes that will be used in the app. These themes
+ * are used to define the overall look and feel of the app, including the color
+ * scheme, typography, and other visual properties.
+ * 
+ * There are also themes that control the view of certain types of components
+ * such as buttons, cards, appBars, and other material components.
+ */
+
 import 'package:flutter/material.dart';
 
 import 'package:training_app/themes/color_themes.dart';

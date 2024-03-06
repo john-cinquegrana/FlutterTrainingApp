@@ -1,3 +1,19 @@
+/*
+ * File:					main.dart
+ * Project:				Mood Swings
+ * File Created:	Wednesday, March 6th 2024
+ * Remote:				Training App:	https://github.com/john-cinquegrana/FlutterTrainingApp
+ * Developer(s):	John Cinquegrana (alllegron@gmail.com)
+ * 
+ * Copyright 2024 John Cinquegrana
+ * 
+ * This file is the main entry point of the dart program. The dart runtime
+ * environment will search for this file and run the main function within it.
+ * 
+ * Alongside the main function, this file contains high-level configuration and
+ * initialization steps for the application.
+ */
+
 import 'package:flutter/material.dart';
 import 'package:training_app/globals.dart';
 
