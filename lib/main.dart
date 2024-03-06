@@ -64,18 +64,31 @@ class ViewContent extends StatelessWidget {
   const ViewContent({super.key});
 
   @override
-  Widget build(final BuildContext context) => Center(
+  Widget build(final BuildContext context) =>
+      // We force the children to be in the center of the allowed space
+      Center(
         child: Padding(
           padding: const EdgeInsets.all(16),
+          // The card widget creates the round-bordered container that we can
+          // put foreground elements in
           child: Card(
             child: Padding(
               padding: const EdgeInsets.symmetric(horizontal: 16),
+              // This column makes it so that the text is displayed in the
+              // logical order of top to bottom
               child: Column(
+                // Instructs the column to take up only as much vertical space
+                // as it's children require. If this argument was omitted, the
+                // column would instead try to take up as much vertical space as
+                // possible.
                 mainAxisSize: MainAxisSize.min,
+                // Aligns all items in the column to the left side of the column
                 crossAxisAlignment: CrossAxisAlignment.start,
+                // The children of the column, layed out top to bottom
                 children: <Widget>[
                   Padding(
                     padding: const EdgeInsets.symmetric(vertical: 16),
+                    // The title on the top of the card
                     child: Text(
                       'Hello World!!',
                       style: Theme.of(context).textTheme.titleLarge,
@@ -83,6 +96,8 @@ class ViewContent extends StatelessWidget {
                   ),
                   Padding(
                     padding: const EdgeInsets.only(bottom: 12),
+                    // The text that makes up the body of the material card
+                    // displayed on the screen.
                     child: Text(
                       "Get ready to make some code. It's not that hard I "
                       'promise.',
