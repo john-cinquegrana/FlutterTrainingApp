@@ -1,6 +1,10 @@
-# Flutter Training Application
+# Creating Your First Widget
 
-Here are various steps anding Flutter.
+The first branch guides you through creating your first Widget in Flutter. In Flutter the term *widget* is synomomous with the term *component* in most frontend frameworks. While there are many varied uses for widgets, such as controlling state, API timings and connections, personalization, themes, we will be starting with creating a *User Interface*.
+
+
+
+# General Steps
 
 ## Accessing this Guide
 
