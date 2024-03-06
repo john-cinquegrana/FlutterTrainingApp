@@ -60,5 +60,6 @@ ThemeData lightTheme = ThemeData(
 /// application
 AppBarTheme lightAppBarTheme = AppBarTheme(
   backgroundColor: lightColorScheme.primaryContainer,
+  shadowColor: lightColorScheme.shadow,
   centerTitle: true,
 );
